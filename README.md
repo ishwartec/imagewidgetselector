@@ -21,10 +21,10 @@ Once you use this plugin and icon will be available for Image Widget Selector, a
 
    Update plugin.js
     
-  ###### var iframeWindow = null;
-  ###### var imagewidgetwindowurl = '<<<THIRDPARTY_WINDOW_URL>>>';
-  ###### var imagewidgetwindow_host_child = '<<<THIRDPARTY_WINDOW_URL_HOSTURL>>>';
-  ###### var imagewidgetwindow_host_parent = '<<<THIRDPARTY_WINDOW_URL_PARENT_URL>>>';
+  > var iframeWindow = null;
+  > var imagewidgetwindowurl = '<<<THIRDPARTY_WINDOW_URL>>>';
+  > var imagewidgetwindow_host_child = '<<<THIRDPARTY_WINDOW_URL_HOSTURL>>>';
+  > var imagewidgetwindow_host_parent = '<<<THIRDPARTY_WINDOW_URL_PARENT_URL>>>';
 
 
 2. You need to add some code in you third party website and this added code will be the responsible for sending the selected image to the parent website that will be further added in Ckeditor.
@@ -40,8 +40,8 @@ Once you use this plugin and icon will be available for Image Widget Selector, a
 >            }
 
  3. Allow Cross Domain 
-    Option  1 .  header("Access-Control-Allow-Origin: http://yourdomain-you-are-connecting-from.com"); // For PHP
-    Option  2 .  In Apache use this to allow cross domain 
+   > Option  1 .  header("Access-Control-Allow-Origin: http://yourdomain-you-are-connecting-from.com"); // For PHP
+   > Option  2 .  In Apache use this to allow cross domain 
                   Header set Access-Control-Allow-Origin "*"            
                   [Refer this link](http://enable-cors.org/server_apache.html)
 
