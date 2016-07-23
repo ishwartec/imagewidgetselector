@@ -30,14 +30,14 @@ Once you use this plugin and icon will be available for Image Widget Selector, a
 2. You need to add some code in you third party website and this added code will be the responsible for sending the selected image to the parent website that will be further added in Ckeditor.
 
 
-     function sendToParent() {
-                var file_path = <YOUR_IMAGE_PATH>; // This will be dynamic
-                var ckeditorInstance = getParamator('CKEditor');
-                var mvreplacetype = getParamator('mvreplacetype');
-                var mvfolderpath = getParamator('mvfolderpath');
-                var actual_data = file_path + '||||' + ckeditorInstance + '||||' + mvreplacetype+ '||||' + mvfolderpath;
-                window.parent.postMessage(actual_data, '*');
-            }
+>     function sendToParent() {
+>                var file_path = <YOUR_IMAGE_PATH>; // This will be dynamic
+>                var ckeditorInstance = getParamator('CKEditor');
+>               var mvreplacetype = getParamator('mvreplacetype');
+>                var mvfolderpath = getParamator('mvfolderpath');
+>                var actual_data = file_path + '||||' + ckeditorInstance + '||||' + mvreplacetype+ '||||' + mvfolderpath;
+>                window.parent.postMessage(actual_data, '*');
+>            }
 
  3. Allow Cross Domain 
     Option  1 .  header("Access-Control-Allow-Origin: http://yourdomain-you-are-connecting-from.com"); // For PHP
