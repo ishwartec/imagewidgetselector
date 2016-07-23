@@ -40,6 +40,7 @@ Once you use this plugin and icon will be available for Image Widget Selector, a
 >            }
 
  3. Allow Cross Domain 
+ 
    > Option1 -   header("Access-Control-Allow-Origin: http://yourdomain-you-are-connecting-from.com"); // For PHP
    > Option2 -   In Apache use this to allow cross domain 
                   Header set Access-Control-Allow-Origin "*"            
