@@ -53,5 +53,5 @@ Once you use this plugin and icon will be available for Image Widget Selector, a
 
 ### Note: This module will work only for Ckeditor
 
-Thanks! :Ishwar Chandra Tiwari:
+Thanks! :Ishwar Chandra Tiwari::sparkling_heart:
 
