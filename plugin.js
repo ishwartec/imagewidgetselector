@@ -12,9 +12,9 @@
 
 
 var iframeWindow = null;
-var imagewidgetwindowurl = 'http://drupal7.local/mvalet.php';
-var imagewidgetwindow_host_child = 'http://drupal7.local';
-var imagewidgetwindow_host_parent = 'http://drupal8.local';
+var imagewidgetwindowurl = 'YOUR_THIRD_PARTY_URL';
+var imagewidgetwindow_host_child = 'YOUR_THIRD_PARTY_CHILD_HOST_URL';
+var imagewidgetwindow_host_parent = 'YOUR_PARENT_HOST_URL';
 
 var win;
 var dialog;
